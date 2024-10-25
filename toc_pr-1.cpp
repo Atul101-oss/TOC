@@ -47,7 +47,7 @@ public:
 };
 int main(){
     string word;
-    cout << "Enter a string to Check: "; cin >> word;
+    cout << "Enter a string to Check (3 consicutive 1's): "; cin >> word;
     finiteAutomata FA(word);
     cout << (FA.isValid() ? "Accepted" : "Rejected") << endl;
 
