@@ -6,3 +6,26 @@
 #include <iostream>;
 using namespace std;
 
+class finiteAutomata{
+private:
+    string word;
+    int state;
+    int index;
+
+public:
+    finiteAutomata(){
+        cout << "Enter a String to Check: ";
+        cin >> word;
+    }
+
+    bool isValid(){
+        if (transition(0)==)
+    }
+}
+
+int main(){
+
+    finiteAutomata FA();
+    cout << (FA.isValid() ? "Accepted" : "Rejected");
+    return 0;
+}
