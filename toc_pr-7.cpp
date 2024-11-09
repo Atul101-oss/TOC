@@ -58,6 +58,6 @@ int main(){
     string word;
     cout << "Enter a string to check (over L(G)=> a^n.b^n): ";
     cin >> word;
-    cout << (isValid_PDA(word) ? "Accepted" : "Rejected") <<endl;
+    cout << (isValid_PDA(word) ? word+" -Accepted" : word+" -Rejected") <<endl;
     return 0;
 }
